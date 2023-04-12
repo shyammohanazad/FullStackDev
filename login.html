@@ -6,22 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login_Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
         <div id="form-img">
             <img src="https://img.freepik.com/free-vector/illustration-education-concept_53876-20544.jpg?w=826&t=st=1681185991~exp=1681186591~hmac=8c0f2f96f1ffda6923d8c1b9897fade1803d060665608c4d432ebb70cbd0c750"> 
         </div>
-        <div class="form" id="login-form">
-            <h1>Login Here</h1>
-            
-            <form action="submit">
-                <input type="email" id="user-email" name="user-email" placeholder="E-mail"><br>
-                <input type="password" id="user-password" name="user-password" placeholder="password"><br>
-                <input type="button" name="submit" id="sign-in" value="Sign-in">
-            </form> 
+        <div class="loginform">
+            <center><d class="title">Log-in</d></center>
+                <form action="">
+                    <div class="user-detail">
+                        <div class="input-box">
+                            <input type="email" class="input-field" name="useremail" id="useremail" placeholder="UserEmail" autocomplete="off">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" class="input-field" name="password" id="password" placeholder="Password" autocomplete="off">
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" checked name="rememberMe" id="rememberMe">
+                            <d class="label">Remember Me</d>
+                        </div>
+                        <div class="button">
+                            <input type="button" value="Log-in">
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <center><span><d class="label">OR</d></span></center>
+                        <div class="social-media-icons">
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-pinterest"></i>
+                        </div>
+                        <center><d class="label">Forgot Password ? / <span id="toggle" onclick="changeMode();">Dark Mode</span></d></center>
+                    </div>
+                </form>
         </div>
     </div>
+    <script src="login2.js"></script>
 </body>
 </html>
 
