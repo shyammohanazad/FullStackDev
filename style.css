@@ -40,7 +40,7 @@ body{
     padding-top: 30px;
     padding-bottom: 60px;
     border: 2px solid var(--background);
-    box-shadow: 15px 15px 10px 5px var(--shadow1), -10px -10px 10px 5px var(--shadow2), inset 15px 15px 10px 5px var(--shadow1),inset -10px -10px 10px 5px var(--shadow2);
+    box-shadow: 15px 15px 10px 5px #bfa591, -10px -10px 10px 5px var(--shadow2), inset 15px 15px 10px 5px var(--shadow1),inset -10px -10px 10px 5px var(--shadow2);
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 20px;
