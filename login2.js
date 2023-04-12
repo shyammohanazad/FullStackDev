@@ -12,7 +12,7 @@ function changeMode(){
 
 function lightMode(){
     rootprop.setProperty("--background","rgba(230,230,230)");
-    rootprop.setProperty("--shadow1","rgba(119,119,119,0.5)");
+    rootprop.setProperty("--shadow1","rgba(184, 91, 20,0.5)");
     rootprop.setProperty("--shadow2","rgba(255,255,255,0.85)");
     rootprop.setProperty("--labelColor","black");
 }
